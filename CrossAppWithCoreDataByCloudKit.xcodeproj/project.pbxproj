@@ -11,6 +11,9 @@
 		AE301F7C27D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE301F7927D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld */; };
 		AE301FAC27D2462600D03FED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE301FAB27D2462600D03FED /* Persistence.swift */; };
 		AE301FAD27D2462600D03FED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE301FAB27D2462600D03FED /* Persistence.swift */; };
+		AE48D78B27E9E57900A650FE /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48D78A27E9E57900A650FE /* ContentViewModel.swift */; };
+		AE48D78C27E9E57B00A650FE /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48D78A27E9E57900A650FE /* ContentViewModel.swift */; };
+		AE48D78D27E9E57C00A650FE /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48D78A27E9E57900A650FE /* ContentViewModel.swift */; };
 		AE4EC74C27D25CD900AA4E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4EC74B27D25CD900AA4E2C /* Assets.xcassets */; };
 		AE4EC75227D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AE4EC75127D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AE4EC75727D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4EC75627D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp.swift */; };
@@ -79,6 +82,7 @@
 /* Begin PBXFileReference section */
 		AE301F7A27D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrossAppWithCoreDataByCloudKitAppModel.xcdatamodel; sourceTree = "<group>"; };
 		AE301FAB27D2462600D03FED /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AE48D78A27E9E57900A650FE /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		AE4EC74927D25CD900AA4E2C /* CrossAppWithCoreDataByCloudKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossAppWithCoreDataByCloudKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4EC74B27D25CD900AA4E2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE4EC75127D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CrossAppWithCoreDataByCloudKitApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,6 +197,7 @@
 			children = (
 				AEE536F827D221EB009CD03D /* CrossAppWithCoreDataByCloudKitApp.swift */,
 				AEE536F927D221EB009CD03D /* ContentView.swift */,
+				AE48D78A27E9E57900A650FE /* ContentViewModel.swift */,
 				AE301F7927D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld */,
 				AE301FAB27D2462600D03FED /* Persistence.swift */,
 				AEE536FA27D221EC009CD03D /* Assets.xcassets */,
@@ -378,6 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE48D78C27E9E57B00A650FE /* ContentViewModel.swift in Sources */,
 				AE4EC75B27D25CDA00AA4E2C /* NotificationController.swift in Sources */,
 				AE4EC77327D25D0C00AA4E2C /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld in Sources */,
 				AE4EC77227D25D0700AA4E2C /* ContentView.swift in Sources */,
@@ -396,6 +402,7 @@
 				AE301FAC27D2462600D03FED /* Persistence.swift in Sources */,
 				AE301F7B27D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld in Sources */,
 				AEE5370827D221EC009CD03D /* CrossAppWithCoreDataByCloudKitApp.swift in Sources */,
+				AE48D78B27E9E57900A650FE /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +414,7 @@
 				AE301FAD27D2462600D03FED /* Persistence.swift in Sources */,
 				AE301F7C27D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld in Sources */,
 				AEE5370927D221EC009CD03D /* CrossAppWithCoreDataByCloudKitApp.swift in Sources */,
+				AE48D78D27E9E57C00A650FE /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
