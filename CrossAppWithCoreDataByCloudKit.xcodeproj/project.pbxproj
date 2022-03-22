@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE301F7B27D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE301F7927D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld */; };
+		AE301F7C27D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE301F7927D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld */; };
+		AE301FAC27D2462600D03FED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE301FAB27D2462600D03FED /* Persistence.swift */; };
+		AE301FAD27D2462600D03FED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE301FAB27D2462600D03FED /* Persistence.swift */; };
+		AE4EC74C27D25CD900AA4E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4EC74B27D25CD900AA4E2C /* Assets.xcassets */; };
+		AE4EC75227D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AE4EC75127D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AE4EC75727D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4EC75627D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp.swift */; };
+		AE4EC75B27D25CDA00AA4E2C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4EC75A27D25CDA00AA4E2C /* NotificationController.swift */; };
+		AE4EC75D27D25CDA00AA4E2C /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4EC75C27D25CDA00AA4E2C /* NotificationView.swift */; };
+		AE4EC75F27D25CDA00AA4E2C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4EC75E27D25CDA00AA4E2C /* ComplicationController.swift */; };
+		AE4EC76127D25CDA00AA4E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4EC76027D25CDA00AA4E2C /* Assets.xcassets */; };
+		AE4EC76427D25CDA00AA4E2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4EC76327D25CDA00AA4E2C /* Preview Assets.xcassets */; };
+		AE4EC76927D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AE4EC74927D25CD900AA4E2C /* CrossAppWithCoreDataByCloudKitApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AE4EC77227D25D0700AA4E2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE536F927D221EB009CD03D /* ContentView.swift */; };
+		AE4EC77327D25D0C00AA4E2C /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE301F7927D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld */; };
+		AE4EC77427D25D1300AA4E2C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE301FAB27D2462600D03FED /* Persistence.swift */; };
+		AE4EC77827D2607400AA4E2C /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4EC77727D2607400AA4E2C /* CloudKit.framework */; };
+		AE4EC77B27D268CF00AA4E2C /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4EC77A27D268CF00AA4E2C /* CloudKit.framework */; };
+		AE4EC77E27D268E300AA4E2C /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4EC77D27D268E300AA4E2C /* CloudKit.framework */; };
+		AEE5370827D221EC009CD03D /* CrossAppWithCoreDataByCloudKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE536F827D221EB009CD03D /* CrossAppWithCoreDataByCloudKitApp.swift */; };
+		AEE5370927D221EC009CD03D /* CrossAppWithCoreDataByCloudKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE536F827D221EB009CD03D /* CrossAppWithCoreDataByCloudKitApp.swift */; };
+		AEE5370A27D221EC009CD03D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE536F927D221EB009CD03D /* ContentView.swift */; };
+		AEE5370B27D221EC009CD03D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE536F927D221EB009CD03D /* ContentView.swift */; };
+		AEE5370C27D221EC009CD03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE536FA27D221EC009CD03D /* Assets.xcassets */; };
+		AEE5370D27D221EC009CD03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE536FA27D221EC009CD03D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE4EC75327D25CDA00AA4E2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE536F327D221EB009CD03D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE4EC75027D25CDA00AA4E2C;
+			remoteInfo = "CrossAppWithCoreDataByCloudKitApp WatchKit Extension";
+		};
+		AE4EC76727D25CDA00AA4E2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE536F327D221EB009CD03D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE4EC74827D25CD900AA4E2C;
+			remoteInfo = CrossAppWithCoreDataByCloudKitApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE4EC76A27D25CDA00AA4E2C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AE4EC76927D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4EC76D27D25CDA00AA4E2C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AE4EC75227D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AE301F7A27D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrossAppWithCoreDataByCloudKitAppModel.xcdatamodel; sourceTree = "<group>"; };
+		AE301FAB27D2462600D03FED /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AE4EC74927D25CD900AA4E2C /* CrossAppWithCoreDataByCloudKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossAppWithCoreDataByCloudKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4EC74B27D25CD900AA4E2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE4EC75127D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CrossAppWithCoreDataByCloudKitApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4EC75627D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossAppWithCoreDataByCloudKitApp.swift; sourceTree = "<group>"; };
+		AE4EC75A27D25CDA00AA4E2C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		AE4EC75C27D25CDA00AA4E2C /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		AE4EC75E27D25CDA00AA4E2C /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		AE4EC76027D25CDA00AA4E2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE4EC76327D25CDA00AA4E2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE4EC76527D25CDA00AA4E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4EC76627D25CDA00AA4E2C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		AE4EC77527D2606E00AA4E2C /* CrossAppWithCoreDataByCloudKit (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CrossAppWithCoreDataByCloudKit (iOS).entitlements"; sourceTree = "<group>"; };
+		AE4EC77727D2607400AA4E2C /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		AE4EC77927D2607D00AA4E2C /* CrossAppWithCoreDataByCloudKit--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CrossAppWithCoreDataByCloudKit--iOS--Info.plist"; sourceTree = "<group>"; };
+		AE4EC77A27D268CF00AA4E2C /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		AE4EC77C27D268E100AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CrossAppWithCoreDataByCloudKitApp WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		AE4EC77D27D268E300AA4E2C /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.3.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		AEE536F827D221EB009CD03D /* CrossAppWithCoreDataByCloudKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossAppWithCoreDataByCloudKitApp.swift; sourceTree = "<group>"; };
+		AEE536F927D221EB009CD03D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AEE536FA27D221EC009CD03D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEE536FF27D221EC009CD03D /* CrossAppWithCoreDataByCloudKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossAppWithCoreDataByCloudKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE5370527D221EC009CD03D /* CrossAppWithCoreDataByCloudKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossAppWithCoreDataByCloudKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE5370727D221EC009CD03D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE4EC74E27D25CDA00AA4E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4EC77E27D268E300AA4E2C /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE536FC27D221EC009CD03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4EC77827D2607400AA4E2C /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE5370227D221EC009CD03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4EC77B27D268CF00AA4E2C /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE4EC74A27D25CD900AA4E2C /* CrossAppWithCoreDataByCloudKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				AE4EC74B27D25CD900AA4E2C /* Assets.xcassets */,
+			);
+			path = CrossAppWithCoreDataByCloudKitApp;
+			sourceTree = "<group>";
+		};
+		AE4EC75527D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AE4EC77C27D268E100AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension.entitlements */,
+				AE4EC75627D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp.swift */,
+				AE4EC75A27D25CDA00AA4E2C /* NotificationController.swift */,
+				AE4EC75C27D25CDA00AA4E2C /* NotificationView.swift */,
+				AE4EC75E27D25CDA00AA4E2C /* ComplicationController.swift */,
+				AE4EC76027D25CDA00AA4E2C /* Assets.xcassets */,
+				AE4EC76527D25CDA00AA4E2C /* Info.plist */,
+				AE4EC76627D25CDA00AA4E2C /* PushNotificationPayload.apns */,
+				AE4EC76227D25CDA00AA4E2C /* Preview Content */,
+			);
+			path = "CrossAppWithCoreDataByCloudKitApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		AE4EC76227D25CDA00AA4E2C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE4EC76327D25CDA00AA4E2C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE4EC77627D2607400AA4E2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE4EC77D27D268E300AA4E2C /* CloudKit.framework */,
+				AE4EC77A27D268CF00AA4E2C /* CloudKit.framework */,
+				AE4EC77727D2607400AA4E2C /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEE536F227D221EB009CD03D = {
+			isa = PBXGroup;
+			children = (
+				AE4EC77927D2607D00AA4E2C /* CrossAppWithCoreDataByCloudKit--iOS--Info.plist */,
+				AE4EC77527D2606E00AA4E2C /* CrossAppWithCoreDataByCloudKit (iOS).entitlements */,
+				AEE536F727D221EB009CD03D /* Shared */,
+				AEE5370627D221EC009CD03D /* macOS */,
+				AE4EC74A27D25CD900AA4E2C /* CrossAppWithCoreDataByCloudKitApp */,
+				AE4EC75527D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension */,
+				AEE5370027D221EC009CD03D /* Products */,
+				AE4EC77627D2607400AA4E2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEE536F727D221EB009CD03D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AEE536F827D221EB009CD03D /* CrossAppWithCoreDataByCloudKitApp.swift */,
+				AEE536F927D221EB009CD03D /* ContentView.swift */,
+				AE301F7927D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld */,
+				AE301FAB27D2462600D03FED /* Persistence.swift */,
+				AEE536FA27D221EC009CD03D /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AEE5370027D221EC009CD03D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEE536FF27D221EC009CD03D /* CrossAppWithCoreDataByCloudKit.app */,
+				AEE5370527D221EC009CD03D /* CrossAppWithCoreDataByCloudKit.app */,
+				AE4EC74927D25CD900AA4E2C /* CrossAppWithCoreDataByCloudKitApp.app */,
+				AE4EC75127D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEE5370627D221EC009CD03D /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AEE5370727D221EC009CD03D /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE4EC74827D25CD900AA4E2C /* CrossAppWithCoreDataByCloudKitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4EC77127D25CDA00AA4E2C /* Build configuration list for PBXNativeTarget "CrossAppWithCoreDataByCloudKitApp" */;
+			buildPhases = (
+				AE4EC74727D25CD900AA4E2C /* Resources */,
+				AE4EC76D27D25CDA00AA4E2C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE4EC75427D25CDA00AA4E2C /* PBXTargetDependency */,
+			);
+			name = CrossAppWithCoreDataByCloudKitApp;
+			productName = CrossAppWithCoreDataByCloudKitApp;
+			productReference = AE4EC74927D25CD900AA4E2C /* CrossAppWithCoreDataByCloudKitApp.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		AE4EC75027D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4EC77027D25CDA00AA4E2C /* Build configuration list for PBXNativeTarget "CrossAppWithCoreDataByCloudKitApp WatchKit Extension" */;
+			buildPhases = (
+				AE4EC74D27D25CDA00AA4E2C /* Sources */,
+				AE4EC74E27D25CDA00AA4E2C /* Frameworks */,
+				AE4EC74F27D25CDA00AA4E2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrossAppWithCoreDataByCloudKitApp WatchKit Extension";
+			productName = "CrossAppWithCoreDataByCloudKitApp WatchKit Extension";
+			productReference = AE4EC75127D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		AEE536FE27D221EC009CD03D /* CrossAppWithCoreDataByCloudKit (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE5371027D221EC009CD03D /* Build configuration list for PBXNativeTarget "CrossAppWithCoreDataByCloudKit (iOS)" */;
+			buildPhases = (
+				AEE536FB27D221EC009CD03D /* Sources */,
+				AEE536FC27D221EC009CD03D /* Frameworks */,
+				AEE536FD27D221EC009CD03D /* Resources */,
+				AE4EC76A27D25CDA00AA4E2C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE4EC76827D25CDA00AA4E2C /* PBXTargetDependency */,
+			);
+			name = "CrossAppWithCoreDataByCloudKit (iOS)";
+			productName = "CrossAppWithCoreDataByCloudKit (iOS)";
+			productReference = AEE536FF27D221EC009CD03D /* CrossAppWithCoreDataByCloudKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEE5370427D221EC009CD03D /* CrossAppWithCoreDataByCloudKit (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE5371327D221EC009CD03D /* Build configuration list for PBXNativeTarget "CrossAppWithCoreDataByCloudKit (macOS)" */;
+			buildPhases = (
+				AEE5370127D221EC009CD03D /* Sources */,
+				AEE5370227D221EC009CD03D /* Frameworks */,
+				AEE5370327D221EC009CD03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrossAppWithCoreDataByCloudKit (macOS)";
+			productName = "CrossAppWithCoreDataByCloudKit (macOS)";
+			productReference = AEE5370527D221EC009CD03D /* CrossAppWithCoreDataByCloudKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEE536F327D221EB009CD03D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AE4EC74827D25CD900AA4E2C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AE4EC75027D25CDA00AA4E2C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AEE536FE27D221EC009CD03D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AEE5370427D221EC009CD03D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AEE536F627D221EB009CD03D /* Build configuration list for PBXProject "CrossAppWithCoreDataByCloudKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEE536F227D221EB009CD03D;
+			productRefGroup = AEE5370027D221EC009CD03D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEE536FE27D221EC009CD03D /* CrossAppWithCoreDataByCloudKit (iOS) */,
+				AEE5370427D221EC009CD03D /* CrossAppWithCoreDataByCloudKit (macOS) */,
+				AE4EC74827D25CD900AA4E2C /* CrossAppWithCoreDataByCloudKitApp */,
+				AE4EC75027D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE4EC74727D25CD900AA4E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4EC74C27D25CD900AA4E2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4EC74F27D25CDA00AA4E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4EC76427D25CDA00AA4E2C /* Preview Assets.xcassets in Resources */,
+				AE4EC76127D25CDA00AA4E2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE536FD27D221EC009CD03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE5370C27D221EC009CD03D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE5370327D221EC009CD03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE5370D27D221EC009CD03D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE4EC74D27D25CDA00AA4E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4EC75B27D25CDA00AA4E2C /* NotificationController.swift in Sources */,
+				AE4EC77327D25D0C00AA4E2C /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld in Sources */,
+				AE4EC77227D25D0700AA4E2C /* ContentView.swift in Sources */,
+				AE4EC77427D25D1300AA4E2C /* Persistence.swift in Sources */,
+				AE4EC75F27D25CDA00AA4E2C /* ComplicationController.swift in Sources */,
+				AE4EC75727D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp.swift in Sources */,
+				AE4EC75D27D25CDA00AA4E2C /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE536FB27D221EC009CD03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE5370A27D221EC009CD03D /* ContentView.swift in Sources */,
+				AE301FAC27D2462600D03FED /* Persistence.swift in Sources */,
+				AE301F7B27D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld in Sources */,
+				AEE5370827D221EC009CD03D /* CrossAppWithCoreDataByCloudKitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE5370127D221EC009CD03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE5370B27D221EC009CD03D /* ContentView.swift in Sources */,
+				AE301FAD27D2462600D03FED /* Persistence.swift in Sources */,
+				AE301F7C27D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld in Sources */,
+				AEE5370927D221EC009CD03D /* CrossAppWithCoreDataByCloudKitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE4EC75427D25CDA00AA4E2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE4EC75027D25CDA00AA4E2C /* CrossAppWithCoreDataByCloudKitApp WatchKit Extension */;
+			targetProxy = AE4EC75327D25CDA00AA4E2C /* PBXContainerItemProxy */;
+		};
+		AE4EC76827D25CDA00AA4E2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE4EC74827D25CD900AA4E2C /* CrossAppWithCoreDataByCloudKitApp */;
+			targetProxy = AE4EC76727D25CDA00AA4E2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE4EC76B27D25CDA00AA4E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CrossAppWithCoreDataByCloudKitApp_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = CrossAppWithCoreDataByCloudKitApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = test.losadrian.CrossAppWithCoreDataByCloudKit;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.losadrian.CrossAppWithCoreDataByCloudKit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		AE4EC76C27D25CDA00AA4E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CrossAppWithCoreDataByCloudKitApp_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = CrossAppWithCoreDataByCloudKitApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = test.losadrian.CrossAppWithCoreDataByCloudKit;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.losadrian.CrossAppWithCoreDataByCloudKit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		AE4EC76E27D25CDA00AA4E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "CrossAppWithCoreDataByCloudKitApp WatchKit Extension/CrossAppWithCoreDataByCloudKitApp WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrossAppWithCoreDataByCloudKitApp WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CrossAppWithCoreDataByCloudKitApp WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CrossAppWithCoreDataByCloudKitApp WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = CrossAppWithCoreDataByCloudKitApp_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.losadrian.CrossAppWithCoreDataByCloudKit.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		AE4EC76F27D25CDA00AA4E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "CrossAppWithCoreDataByCloudKitApp WatchKit Extension/CrossAppWithCoreDataByCloudKitApp WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrossAppWithCoreDataByCloudKitApp WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CrossAppWithCoreDataByCloudKitApp WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CrossAppWithCoreDataByCloudKitApp WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = CrossAppWithCoreDataByCloudKitApp_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.losadrian.CrossAppWithCoreDataByCloudKit.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		AEE5370E27D221EC009CD03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEE5370F27D221EC009CD03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AEE5371127D221EC009CD03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CrossAppWithCoreDataByCloudKit (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CrossAppWithCoreDataByCloudKit--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.losadrian.CrossAppWithCoreDataByCloudKit;
+				PRODUCT_NAME = CrossAppWithCoreDataByCloudKit;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEE5371227D221EC009CD03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CrossAppWithCoreDataByCloudKit (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CrossAppWithCoreDataByCloudKit--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.losadrian.CrossAppWithCoreDataByCloudKit;
+				PRODUCT_NAME = CrossAppWithCoreDataByCloudKit;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEE5371427D221EC009CD03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.losadrian.CrossAppWithCoreDataByCloudKit;
+				PRODUCT_NAME = CrossAppWithCoreDataByCloudKit;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AEE5371527D221EC009CD03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.losadrian.CrossAppWithCoreDataByCloudKit;
+				PRODUCT_NAME = CrossAppWithCoreDataByCloudKit;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE4EC77027D25CDA00AA4E2C /* Build configuration list for PBXNativeTarget "CrossAppWithCoreDataByCloudKitApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4EC76E27D25CDA00AA4E2C /* Debug */,
+				AE4EC76F27D25CDA00AA4E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4EC77127D25CDA00AA4E2C /* Build configuration list for PBXNativeTarget "CrossAppWithCoreDataByCloudKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4EC76B27D25CDA00AA4E2C /* Debug */,
+				AE4EC76C27D25CDA00AA4E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEE536F627D221EB009CD03D /* Build configuration list for PBXProject "CrossAppWithCoreDataByCloudKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE5370E27D221EC009CD03D /* Debug */,
+				AEE5370F27D221EC009CD03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEE5371027D221EC009CD03D /* Build configuration list for PBXNativeTarget "CrossAppWithCoreDataByCloudKit (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE5371127D221EC009CD03D /* Debug */,
+				AEE5371227D221EC009CD03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEE5371327D221EC009CD03D /* Build configuration list for PBXNativeTarget "CrossAppWithCoreDataByCloudKit (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE5371427D221EC009CD03D /* Debug */,
+				AEE5371527D221EC009CD03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE301F7927D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE301F7A27D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodel */,
+			);
+			currentVersion = AE301F7A27D229F500D03FED /* CrossAppWithCoreDataByCloudKitAppModel.xcdatamodel */;
+			path = CrossAppWithCoreDataByCloudKitAppModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AEE536F327D221EB009CD03D /* Project object */;
+}
